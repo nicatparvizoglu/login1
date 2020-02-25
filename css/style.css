@@ -1,0 +1,179 @@
+#login {
+  background: url(../photo/motpath.svg);
+  width: 100%;
+  height: 100vh;
+  background-color: #EFEFEF;
+}
+
+#login .svg {
+  position: relative;
+}
+
+#login .svg .menu-logo {
+  width: 110px;
+  position: absolute;
+  top: 30px;
+  left: 21%;
+}
+
+#create {
+  position: relative;
+}
+
+#create .create-ac {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  position: absolute;
+  top: 100px;
+  left: 21%;
+  text-align: left;
+  padding: 80px 80px;
+  width: 58%;
+}
+
+#create .create-ac line {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: solid 1px #ee5586;
+}
+
+#create .create-ac line .big-line {
+  width: 30px;
+}
+
+#create .create-ac h3 {
+  color: #272727;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+#create .create-ac p {
+  color: #272727;
+}
+
+#create .create-ac .al {
+  border: 15px 20px;
+  border-radius: 15px;
+  border: 1px solid #EE5586;
+  background: #EE5586;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  padding: 5px 15px;
+}
+
+#create .create-ac .al:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#create .create-ac .cr {
+  border: 15px 20px;
+  border-radius: 15px;
+  border: 1px solid #B3B3B3;
+  background: #B3B3B3;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  padding: 5px 15px;
+}
+
+#create .create-ac .cr:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#create .create-ac .customer-login {
+  position: relative;
+}
+
+#create .create-ac .customer-login .customer-tittle h4 {
+  font-weight: 600 !important;
+  font-size: 16px;
+}
+
+#create .create-ac .customer-login .right {
+  position: absolute;
+  top: 3px;
+}
+
+.imp {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#chat {
+  position: fixed;
+  bottom: 12%;
+  right: 2%;
+  z-index: 1000;
+}
+
+#chat .main-chat {
+  position: relative;
+  bottom: 100%;
+  right: 0;
+  width: 340px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  display: none;
+}
+
+#chat .main-chat.active {
+  display: block;
+}
+
+#chat .main-chat .top p {
+  font-size: 14px;
+  text-align: center;
+}
+
+#chat .main-chat .bottom {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+#chat .main-chat .bottom input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+#chat .main-chat .bottom .l-input {
+  padding: 15px 10px;
+}
+
+#chat .main-chat .bottom button {
+  width: 100%;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#chat .main-chat .bottom button:hover {
+  background-color: grey;
+}
+/*# sourceMappingURL=style.css.map */
